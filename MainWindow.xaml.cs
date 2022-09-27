@@ -22,7 +22,22 @@ namespace WPF_Shovkun_PR2_LineAlgorytm
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();           
+        }
+
+        private void Schet_Click(object sender, RoutedEventArgs e)
+        {
+            Itog.Text = Environment.NewLine + "PR2";
+            double x = double.Parse(X.Text);
+            Itog.Text += Environment.NewLine + "X = " + x.ToString();
+            double y = double.Parse(Y.Text);
+            Itog.Text += Environment.NewLine + "Y = " + y.ToString();
+
+            double a = (x * x / 2);
+            double b = (y * y / 4);
+            double u = 1 + a + b;
+
+            Itog.Text += Environment.NewLine + "U = " + u.ToString();
         }
     }
 }
