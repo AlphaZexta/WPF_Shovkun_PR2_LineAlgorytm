@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Shovkun_PR2_LineAlgorytm", "WPF_Shovkun_PR2_LineAlgorytm.csproj", "{37964342-9CC4-4352-A3FC-AE865CC1A366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37964342-9CC4-4352-A3FC-AE865CC1A366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37964342-9CC4-4352-A3FC-AE865CC1A366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37964342-9CC4-4352-A3FC-AE865CC1A366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37964342-9CC4-4352-A3FC-AE865CC1A366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F4F5E9F-319E-40B9-BA1D-B932A5522E01}
+	EndGlobalSection
+EndGlobal
